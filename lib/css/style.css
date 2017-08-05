@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+body {
+	text-align: center;
+	background-color: #FFB6C1;
+	font-family: 'Comfortaa', cursive;
+}
+
+.container {
+	padding: 10px;
+}
+
+#title {
+	padding: 5px 0 5px 0;
+}
+
+form {
+	margin: 0 auto;
+	width: 250px;
+}
+
+.wpn {
+	width: 100px;
+}
+
+.result {
+	/*text-transform: uppercase;*/
+}
