@@ -24,6 +24,9 @@
   	<div id="title" class="container">
 		<h1>Rock, Paper, Scissors</h1>
 		<h1>SHOOT</h1>
+		<div id="scoreboard" class="hide">
+			<h4>Games won:<p id="score"></p></h4>
+		</div>
 	</div>
 
 	<div class="container">
@@ -32,7 +35,7 @@
 		<div class='input-group'>
 			<input type="text" class="form-control" id="inputBox" placeholder="">
 		   	<span class="input-group-btn">
-		        <button id="submitBtn" class="btn btn-default" type="button">Submit</button>
+		        <button id="submitBtn" class="btn btn-default" type="button" onclick="updateDB();">Submit</button>
 		   	</span>
 		</div>
 	</form>

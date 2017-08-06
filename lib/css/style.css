@@ -7,11 +7,21 @@ body {
 }
 
 .container {
-	padding: 10px;
+	padding: 0px;
+}
+
+#scoreboard {
+	padding: 5px 0px 0px 0px;
+}
+
+#score {
+	display: inline;
+	padding-left: 10px;
 }
 
 #title {
 	padding: 5px 0 5px 0;
+	margin: 0 auto;
 }
 
 form {
@@ -21,6 +31,10 @@ form {
 
 .wpn {
 	width: 100px;
+}
+
+#playAgain {
+	width: 300px;
 }
 
 .result {
