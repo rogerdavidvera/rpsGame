@@ -31,11 +31,11 @@
 
 	<div class="container">
 	<form id="nameForm" onSubmit="return false;">
-		<label for="user">Enter Your Name</label>
+		<label for="user">Enter Your Name (First Last)</label>
 		<div class='input-group'>
 			<input type="text" class="form-control" id="inputBox" placeholder="">
 		   	<span class="input-group-btn">
-		        <button id="submitBtn" class="btn btn-default" type="button" onclick="updateDB();">Submit</button>
+		        <button id="submitBtn" class="btn btn-default" type="button" onclick="">Submit</button>
 		   	</span>
 		</div>
 	</form>
@@ -59,8 +59,24 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-	<!-- Custom Scripts -->
-	<script type="text/javascript" src="./lib/js/script.js"></script>
 
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyBLtHV3RZOsKa-ndi3UURvPSiYGd023XoY",
+	    authDomain: "rpsgame-12723.firebaseapp.com",
+	    databaseURL: "https://rpsgame-12723.firebaseio.com",
+	    projectId: "rpsgame-12723",
+	    storageBucket: "rpsgame-12723.appspot.com",
+	    messagingSenderId: "111857331602"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+
+	<!-- Custom Scripts -->
+
+	<script type="text/javascript" src="./lib/js/script.js"></script>
+	<script type="text/javascript" src="./lib/js/app.js"></script>
   </body>
 </html>
